@@ -14,4 +14,4 @@ rory = function(input, callback) {
          "rory",
          [input]
      );
-}
+};
