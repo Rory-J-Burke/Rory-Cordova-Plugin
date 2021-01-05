@@ -1,0 +1,25 @@
+
+{
+  "name": "Rory-Cordova-Plugin",
+  "version": "0.0.1",
+  "description": "This plugin reverses the input string then displays with styling.",
+  "cordova": {
+    "id": "Rory-Cordova-Plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "Reverse",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Rory Burke"
+}
