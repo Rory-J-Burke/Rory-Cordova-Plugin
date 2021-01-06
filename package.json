@@ -1,25 +1,17 @@
-
 {
-  "name": "Rory-Cordova-Plugin",
+  "name": "new-rory-plugin",
   "version": "0.0.1",
-  "description": "This plugin reverses the input string then displays with styling.",
+  "description": "Reverses the input string",
   "cordova": {
-    "id": "Rory-Cordova-Plugin",
+    "id": "new-rory-plugin",
     "platforms": [
       "android"
     ]
   },
   "keywords": [
-    "Reverse",
-    "cordova",
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "Rory Burke"
+  "author": "Rory J Burke",
+  "license": "ISC"
 }

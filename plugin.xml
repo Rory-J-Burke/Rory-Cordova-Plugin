@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="Rory-Cordova-Plugin" version="0.0.1">
-    <name>Rory-Cordova-Plugin</name>
-    <description>Cordova Device Plugin</description>
-    <license>Apache 2.0</license>
-    <keywords>cordova,device</keywords>
-    <js-module src="www/js/Rory.js" name="rory">
-        <clobbers target="rory" />
+<?xml version='1.0' encoding='utf-8'?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="new-rory-plugin" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>new-rory-plugin</name>
+    <js-module name="new-rory-plugin" src="www/NewRoryPlugin.js">
+        <clobbers target="cordova.plugins.NewRoryPlugin" />
     </js-module>
     <platform name="android">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Rory">
-                <param name="android-package" value="com.example.rory.Rory"/>
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="NewRoryPlugin">
+                <param name="android-package" value="com.example.rory.NewRoryPlugin" />
             </feature>
         </config-file>
-        <source-file src="src/android/com/example/rory/Rory.kt" target-dir="src/android/com/example/rory"/>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/NewRoryPlugin.java"
+            target-dir="src/com/example/rory/new-rory-plugin" />
     </platform>
 </plugin>
